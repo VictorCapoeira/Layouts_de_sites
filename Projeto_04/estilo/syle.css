@@ -1,0 +1,127 @@
+:root{
+    --margin: 15rem;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Viaoda Libre', cursive;
+    font-weight: 300;
+}
+.title{
+    font-size: 3.1em;
+}
+.hero{
+    background-image: url(../imagens/topo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+.hero_content{
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #162028;
+}
+.hero_title{
+    color: white;
+    margin-left: var(--margin);
+    margin: 1rem 0 1rem var(--margin);
+    font-size: 2.5em;
+}
+.hero_nav_menu{
+    margin-right: calc(var(--margin) / 2.5);
+    list-style-type: none;
+    display: flex;
+    gap: 3em;
+}
+.hero_nav_menu a{
+    text-decoration: none;
+    color: #425564;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.3em;
+}
+.hero_nav_menu a:hover, .hero_nav_menu a:focus{
+    color: #7b9fbb;
+}
+.section_1{
+    width: 80%;
+    margin: 0 auto;
+}
+.section_1_title{
+    text-align: center;
+    margin-top: 13rem;
+}
+.section_1_text{
+    color: #555;
+    margin: 0 auto;
+    text-align: center;
+    width: 90ch; 
+    font-size: 2rem;
+    line-height: 2;
+    margin-bottom: 8rem;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8em;
+    text-align: center;
+    margin-bottom: 4em;
+}
+.card{
+    flex: 1 0 0;
+}
+.card img{
+    width: 100%;
+}
+.card_title{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 800;
+    letter-spacing: 2px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #424242;
+}
+.card_content{
+    color: #555;
+    font-size: 1.2em;
+}
+.section_2{
+    background-color: #003d52;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: 80rem;
+}
+.section_2_title, .section_2_content{
+    width: 50%;
+    margin-left: calc(var(--margin) / 1.5);
+}
+.section_2_title{
+    text-transform: uppercase;
+}
+.section_2_content{
+    font-size: 1.2em;
+    line-height: 2;
+}
+.p_footer{
+    background-color: #0b171f;
+    color: #6f8597;
+    font-size: 1.8rem;
+    padding: 1.2em;
+    text-align: center;
+}

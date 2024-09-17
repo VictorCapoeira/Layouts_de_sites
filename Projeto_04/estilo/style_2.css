@@ -1,0 +1,122 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Viaoda Libre', serif;
+}
+.wapprer{
+    width: 90%;
+    margin: auto;
+}
+.hero{
+    background-image: url(../imagens/topo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55em;
+    margin-top: 1.5em;
+}
+.hero_content{
+    background-color: #162028;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero_title{
+    padding-left: 4em;
+    margin: .5em;
+    color: white;
+    font-weight: 400;
+}
+.hero_nav_menu{
+    display: flex;
+    gap: 3em;
+    padding-right: 4em;
+    list-style: none;
+}
+.hero_nav_menu a{
+    text-decoration: none;
+    color: #425564;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 1.3em;
+}
+.hero_nav_menu a:hover{
+    color: #8eb6d4;
+}
+.section_title_1{
+    text-align: center;
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 4em;
+}
+.section_text_1{
+    color: #555;
+    text-align: center;
+    font-size: 1.3em;
+    line-height: 1.8;
+    width: 90ch;
+    margin: auto;
+}
+.cards{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    justify-content: space-between;
+    gap: 7em;
+    margin-top: 5em;
+}
+.card{
+    flex: 1 0 0;
+}
+.card_img img{
+    width: 100%;
+}
+.card_title{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    color: #424242
+}
+.card_text{
+    text-align: center;
+    color: #555;
+    font-size: 1.2em;
+}
+.section_2{
+    background-color: #003d52;
+    height: 100vh;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 50em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5em;
+    color: #fff;
+    box-sizing: border-box;
+}
+.section_title_2{
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: 300;
+    width: 30ch;
+}
+.section_text_2{
+    line-height: 2;
+    font-size: 1.2em;
+    width: 75ch;
+}
+footer{
+    text-align: center;
+    background-color: #0b171f;
+    color: #6f8597;
+    width: 100%;
+    padding: 1.5em 0;
+}

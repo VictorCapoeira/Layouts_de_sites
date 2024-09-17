@@ -1,0 +1,175 @@
+:root{
+    --primary-color: #FED001;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    margin: 0;
+    min-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+.wapprer{
+    width: 81.25em;
+    margin: auto;
+}
+.wapprer_dark{
+    background-color: #2a2a2a;
+}
+.wapprer_yellow{
+    background-image: linear-gradient(transparent, rgb(250, 212, 42));
+}
+.wapprer_light{
+    background-color: #fafafa;
+}
+.wapprer_blue{
+    background-color: #003464;
+}
+.upper{
+    text-transform: uppercase;
+}
+.btn{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    color: #000;
+    padding: 1em 2.2em;
+    width: fit-content;
+    border-radius: 5px;
+    font-size: 1.2em;
+    display: block;
+}
+.hero{
+    padding-top: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.menu_flutuante{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.hero_title{
+    margin: 1.2rem 0 .4em 0;
+}
+.hero_nav_ul{
+    list-style-type: none;
+    display: flex;
+    gap: .4em;
+}
+.hero_nav_ul a{
+    color: var(--primary-color);
+    text-decoration: none;
+    padding: .8em 1.2em;
+    border: 1px solid var(--primary-color);
+}
+.hero_nav_ul a:hover{
+    background-color: #000;
+}
+.section_hero{
+    height: 40em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../imagens/HeroImage.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+.section_hero_title{
+    font-size: 2.8em;
+    width: 11ch;
+}
+.btn_section_hero{
+    margin-top: 1em; 
+}
+.section_1{
+    padding-top: 8.5em;
+}
+.section_1_title{
+    text-align: center;
+    font-size: 2.5em;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+.card{
+    flex: 1 0 0 ;
+    height: 25em;
+    max-height: 25em;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.card img{
+    width: 100%;
+    transform: scale(1.001); 
+    height: 13.75em;
+}
+.card_wapprer{
+    flex-grow: 1;
+    border: 1px solid rgb(0 0 0 / .3);
+    border-top: none;
+    border-radius: 0px 0px 10px 10px;
+    padding: 1rem;
+}
+.card_title{
+    font-size: 1.5em;
+}
+.card_content{
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+.btn_section_1{
+    margin: 6em auto 4em;
+}
+.section_2{
+    height: 700px;
+    color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../imagens/nossa-escola.png);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+.section_2_title, .section_2_content{
+    margin-left: 55%;
+    width: 60ch;
+}
+.section_2_title{
+    font-size: 2em; 
+}
+.section_2_content{
+    line-height: 1.5;
+    font-size: 1.1em;
+}
+.section_3_title{
+    text-align: center;
+    font-size: 2.5em;
+    margin-top: 4em;
+}
+iframe{
+    width: 100%;
+    height: 37em;
+    margin-bottom: 2em;
+}
+address{
+    text-align: right;
+    margin-bottom: 2em;
+}
+address p{
+    font-style: normal;
+    margin-bottom: .5em;
+    margin-top: .5em;
+}
+.p_footer{
+    text-align: center;
+    color: #fafafa;
+    padding: 4em;
+}

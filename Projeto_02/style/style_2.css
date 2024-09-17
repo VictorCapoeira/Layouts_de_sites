@@ -1,0 +1,66 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aqua;
+}
+.title{
+    color: #385555;
+}
+.cards_container{
+    background-color: white;
+    width: 32em;
+    height: 28em;
+    overflow-y: scroll;
+    box-shadow: 0 0 3px rgb(0 0 0 / .3); 
+    border-radius: 5px;
+}
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+    gap: 1em;
+}
+.card:hover{
+    background-color: rgba(158, 158, 158, 0.247);
+}
+.card_img{
+    width: 80px;
+}
+.card_img img{
+    width: 100%;
+    border-radius: 50%;
+}
+.card_text{
+    flex-grow: 1;
+}
+.card_title{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 1em;
+    color: #385555;
+    letter-spacing: 1px; 
+}
+.card_mail{
+    margin-top: .6em;
+    color: #aaa;
+}
+.div_actions{
+    display: flex;
+    gap: 1em;
+}
+.div_actions a{
+    opacity: 0;
+}
+.card:hover .div_actions a{
+    opacity: .3;
+}
